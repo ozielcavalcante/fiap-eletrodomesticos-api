@@ -23,9 +23,10 @@ Exemplo de requisição inválida:
 curl --location 'http://localhost:8080/eletrodomesticos' \  
 --header 'Content-Type: application/json' \  
 --data '{  
-&emsp;&emsp;"rua": "1",  
-&emsp;&emsp;"cidade": "Sapezal",  
-&emsp;&emsp;"uf": "MTS"  
+&emsp;&emsp;"marca": "Brastemp",  
+&emsp;&emsp;"modelo": "B4",  
+&emsp;&emsp;"potencia": 1200,  
+&emsp;&emsp;"validadeGarantia": "30/06/2020"  
 }'
 
 Ferramentas utilizadas
